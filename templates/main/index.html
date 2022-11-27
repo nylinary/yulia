@@ -1,0 +1,57 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+{% load static %}	
+
+
+	<!-- Intro -->
+	<div class="container text-center">
+		<br> <br>
+		<h2 class="thin">Здесь ты сможешь узнать, что ты для меня значишь</h2>
+		<p class="text-muted">
+			Открывай этот сайт всегда, когда тебе грустно, или ты хочешь узнать
+			какой прекрасной я тебя считаю. Также, ты можешь добавить место куда ты 
+			хотела бы сходить вместе, и мы обязательно это сделаем.
+		</p>
+	</div>
+	<!-- /Intro-->
+	
+	<!-- Highlights - jumbotron -->
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">Выбирай:</h3>
+			<div class="choose_section_2">
+    	        <div class="row">
+    		    	<div class="col-sm-4">
+						<a class="block-link" href="#">
+							<div class="power">
+								<div class="icon"><img src="{% static 'main/images/heart.svg' %}"></div>
+								<h2 class="totaly_text thin">Причины</h2>
+								<p class="making">Здесь ты сможешь получить ответ на вопрос, почему я считаю тебя лучшей. И не один ответ, а очень много. Переходи и пробуй!</p>
+							</div>
+						</a>
+    		    	</div>
+					<div class="col-sm-4">
+						<a class="block-link" href="#">
+							<div class="power">
+								<div class="icon"><img src="{% static 'main/images/plans.svg' %}"></div>
+								<h2 class="totaly_text thin">Планы</h2>
+								<p class="making">Тут ты сможешь добавить что нибудь в список наших планов. Место куда ты хочешь пойти, или вещь который ты хочешь заняться.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-4">
+						<a class="block-link" href="#">
+							<div class="power">
+								<div class="icon"><img src="{% static 'main/images/camera.svg' %}"></div>
+								<h2 class="totaly_text thin">Моменты</h2>
+								<p class="making">А в это место мы будем заливать наши совместные фотки и сохранять эти моменты, чтобы потом вспоминать их!</p>
+							</div>
+    		    		</a>
+					</div>
+				</div>
+			</div>   
+	    </div>
+	</div>
+{% endblock %}

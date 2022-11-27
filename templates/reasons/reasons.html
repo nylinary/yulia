@@ -1,0 +1,13 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+    <div class="reason">
+        {% if random_reason %}
+            <h1>{{ random_reason.name }}</h1>
+            <p>{{ random_reason.description }}</p>
+        {% else %}
+            <p>Я не знаю что еще сказать..</p>
+        {% endif %}    </div>  
+{% endblock %}
+
+
