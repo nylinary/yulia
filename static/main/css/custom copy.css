@@ -87,26 +87,6 @@
     text-decoration: none;
 }
 
-#plans_svg {
+.plans_svg {
     background-image: url("../images/plans.svg");
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-}
-
-#heart_svg {
-    background-image: url("../images/heart.svg");
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-}
-
-#camera_svg {
-    background-image: url("../images/camera.svg");
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
 }

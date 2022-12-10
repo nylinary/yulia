@@ -27,6 +27,3 @@ var x = setInterval(function() {
   <div class=\"time\">" + seconds + "</div>seconds</div> \
 </div>";
 }, 1000);
-
-
-
