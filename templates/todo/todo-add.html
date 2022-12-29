@@ -1,0 +1,27 @@
+{% extends 'todo/base.html' %}
+
+{% block content %}
+	<!-- Intro -->
+	<div class="container text-center">
+		<br> <br>
+		<h2 class="thin">Добавь дело наших дел.</h2>
+		<p class="text-muted">
+			Здесь будут все наши планы и задумки.
+		</p>
+	</div>
+    <div class="todo-add">
+        <form action="{% url 'todo-add' %}" method="post">
+            {% csrf_token %}
+            <label for="title">Название</label>
+            <input type="text" name="title" id="title">
+            <label for="content">Описание</label>
+            <input type="text" name="content" id="content">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <a href="/todo/">Go back</a>
+	<!-- /Intro-->
+      
+{% endblock %}
+
+

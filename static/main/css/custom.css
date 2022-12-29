@@ -76,6 +76,7 @@
 
 .top-space {
     background-color: #F7EDF8;
+    margin: 0;
 }
 
 .lead {
@@ -110,4 +111,8 @@
     width: 100px;
     height: 100px;
     background-size: cover;
+}
+
+.choose_section_2 {
+    margin-bottom: 5em;
 }

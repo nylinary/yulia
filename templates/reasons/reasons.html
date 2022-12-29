@@ -1,13 +1,27 @@
-{% extends 'main/base.html' %}
+{% extends 'reasons/base.html' %}
 
 {% block content %}
+	<!-- Intro -->
+	<div class="container text-center">
+		<br> <br>
+		<h2 class="thin">Скорее нажимай на кнопку!</h2>
+		<p class="text-muted">
+			Эта страница создана для того, чтобы ты в любой момент могла узнать что я о тебе думаю.
+		</p>
+	</div>
+	<!-- /Intro-->
     <div class="reason">
-        {% if random_reason %}
+        <!-- {% if random_reason %}
             <h1>{{ random_reason.name }}</h1>
             <p>{{ random_reason.description }}</p>
         {% else %}
             <p>Я не знаю что еще сказать..</p>
-        {% endif %}    </div>  
+        {% endif %} -->
+        <h1 id="reason-name"></h1>
+        <p id="reason-description"></p>
+        {% csrf_token %}
+        <button type="submit" name='get_reason' id="get_reason_btn">Get Reason</button>
+    </div>  
 {% endblock %}
 
 

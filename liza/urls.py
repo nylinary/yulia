@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from reasons import views as reasons_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("main.urls")),
     path('reasons/', include("reasons.urls")),
+    # path('todo/', include('todo.urls')),
+    path('api/todo/', include('todo_api.urls')),
+    path('todo/', include('todo_frontend.urls'))
 ]
+ 

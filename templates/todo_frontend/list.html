@@ -1,0 +1,39 @@
+{% extends 'todo_frontend/base.html' %}
+{% block content %}
+{% load static %}
+<div class="container text-center">
+	<br> <br>
+	<h2 class="thin">Скорее нажимай на кнопку!</h2>
+	<p class="text-muted">
+		Эта страница создана для того, чтобы ты в любой момент могла узнать что я о тебе думаю.
+	</p>
+</div>
+	<div class="todo container">
+		<div id="task-container">
+			<div id="form-wrapper">
+				<form id="form">
+					<div class="flex-wrapper">
+						<div style="flex: 6">
+							<input id="title" class="form-control" type="text" name="title" placeholder="Add task">
+						</div>
+						<div style="flex: 1">
+							<input id="submit" class="btn add" type="submit" value="Добавить">
+						</div>
+                        <div style="flex: 1">
+							<input id="cancel" class="btn cancel" type="button" value="Отменить">
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div id="list-wrapper">
+			
+			</div>
+            <!-- <ul class="list-group todos mx-auto text-light" id="list-wrapper">
+                
+            </ul> -->
+        
+		</div>
+	</div>
+
+{% endblock %}
