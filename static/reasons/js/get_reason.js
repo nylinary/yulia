@@ -1,6 +1,7 @@
 reason_name = document.getElementById('reason-name');
 reason_description = document.getElementById('reason-description');
 
+
 $("#get_reason_btn").on('click', function () {
     $.ajax({
     url: '/reasons/ajax/get_reason/',
@@ -15,5 +16,4 @@ $("#get_reason_btn").on('click', function () {
         }
       }
     });
-
   });

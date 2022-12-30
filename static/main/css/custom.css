@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap&subset=cyrillic');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .power{
 	width: 100%;
 	float: left;
@@ -55,7 +62,7 @@
 }
 
 .totaly_text{
-    font-family: "Open sans", Helvetica, Arial;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     float: left;
     text-align: center;
@@ -64,7 +71,7 @@
 
 
 .making{
-    font-family: "Open sans", Helvetica, Arial;
+    font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	float: left;
 	text-align: center;
