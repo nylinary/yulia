@@ -23,7 +23,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure-ppq&q=3o370)fsa(y)gc6rwr_39ua^pok69odn5z_l2u%s_@nm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = False
+DEBUG = True
+
 
 ALLOWED_HOSTS = ['*']
 
@@ -124,7 +126,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/ourdays/static/'
+# STATIC_ROOT = '/home/ourdays/static/'
+STATIC_ROOT = '/home/nylinary/ourdays/static/'
+
+
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
