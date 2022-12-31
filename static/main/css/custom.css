@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: .1em;
 }
 
 .power{
@@ -13,6 +14,7 @@ body {
 	padding: 20px;
     box-shadow: none!important;
     border: #000 1px solid;
+    min-height: 450px;
 }
 
 .power:hover {

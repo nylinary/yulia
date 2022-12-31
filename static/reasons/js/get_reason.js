@@ -1,5 +1,6 @@
 reason_name = document.getElementById('reason-name');
 reason_description = document.getElementById('reason-description');
+btn = document.getElementById("get_reason_btn")
 
 
 $("#get_reason_btn").on('click', function () {
@@ -8,6 +9,8 @@ $("#get_reason_btn").on('click', function () {
     dataType: 'json',
       success: function (data) {
         if (data.success) {
+            // setTimeout(function(){btn.style.backgroundColor = "#F7EDF8";}, 1000);
+            // btn.style.backgroundColor = "#F7EDF8" 
             reason_name.innerHTML = data.reason_name
             reason_description.innerHTML = data.reason_description
         }else{
@@ -17,3 +20,4 @@ $("#get_reason_btn").on('click', function () {
       }
     });
   });
+

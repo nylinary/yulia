@@ -20,7 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("main.urls")),
     path('reasons/', include("reasons.urls")),
-    # path('todo/', include('todo.urls')),
     path('api/todo/', include('todo_api.urls')),
     path('todo/', include('todo_frontend.urls'))
 ]

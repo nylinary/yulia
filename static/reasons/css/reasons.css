@@ -8,6 +8,8 @@
     background-color: #F7EDF8;
     gap: 1.5em;
     min-height: 75%;
+    letter-spacing: .1em;
+
 }
 /* 
 .get-reason-btn {
@@ -24,13 +26,14 @@
   }
   
 .get-reason-btn:hover {
-    background-color: #E87B81;
+    background-color: #F8CCCE;
     color: black;
   }
 
 .reason-name, .reason-description {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    letter-spacing: .1em;
+    /* font-weight: 300; */
 }
 
 .reason-description {
@@ -64,10 +67,15 @@
 }
 .base-button:hover {
     /* transform: translate(4px, 4px); */
-    background-color: #FAA1A6;
+    background-color: #F8CCCE;
     color: black;
 }
 
+/* .base-button:active {
+    background-color: #F8CCCE;
+} */
+
 .hint {
     padding-bottom: 1em;
+    letter-spacing: .1em;
 }
