@@ -90,7 +90,7 @@
 }
 
 #plans_svg {
-    background-image: url("../images/plans.svg");
+    background-image: url("../images/plans-red.svg");
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -98,7 +98,7 @@
 }
 
 #heart_svg {
-    background-image: url("../images/heart.svg");
+    background-image: url("../images/heart-red.svg");
     display: inline-block;
     width: 100px;
     height: 100px;

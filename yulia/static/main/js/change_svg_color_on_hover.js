@@ -9,13 +9,13 @@ $(function() {
     heart_svg.style.backgroundImage = 'url("static/main/images/heart_white.svg")';
   }, function() {
     // on mouseout, reset the background colour
-    heart_svg.style.backgroundImage = 'url("static/main/images/heart.svg")';
+    heart_svg.style.backgroundImage = 'url("static/main/images/heart-red.svg")';
   });
   $('#section_2').hover(function() {
     plans_svg.style.backgroundImage = 'url("static/main/images/plans_white.svg")';
   }, function() {
     // on mouseout, reset the background colour
-    plans_svg.style.backgroundImage = 'url("static/main/images/plans.svg")';
+    plans_svg.style.backgroundImage = 'url("static/main/images/plans-red.svg")';
   });
   $('#section_3').hover(function() {
     camera_svg.style.backgroundImage = 'url("static/main/images/camera_white.svg")';

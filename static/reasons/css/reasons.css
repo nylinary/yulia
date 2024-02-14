@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 2em 1em 4em;
-    background-color: #F7EDF8;
+    background-color: #ffefef;
     gap: 1.5em;
     min-height: 75%;
     letter-spacing: .1em;
@@ -20,7 +20,6 @@
 
 .get-reason-btn {
     width: max-content;
-    background-color: #87509f;
     color: white;
     font-family: 'Montserrat', sans-serif;
   }

@@ -18,7 +18,7 @@ body {
 }
 
 .power:hover {
-	background-color: #87509f;
+	background-color: #b72929;
     color: white;
 }
 
@@ -84,12 +84,13 @@ body {
 
 
 .top-space {
-    background-color: #F7EDF8;
+    background-color: #ffefef;
     margin: 0;
 }
 
 .lead {
     margin-top: 0;
+    font-weight: 900;
 }
 
 .block-link:hover, .block-link:visited, .block-link:link, .block-link:active {
@@ -99,7 +100,7 @@ body {
 }
 
 #plans_svg {
-    background-image: url("../images/plans.svg");
+    background-image: url("../images/plans-red.svg");
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -107,7 +108,7 @@ body {
 }
 
 #heart_svg {
-    background-image: url("../images/heart.svg");
+    background-image: url("../images/heart-red.svg");
     display: inline-block;
     width: 100px;
     height: 100px;
